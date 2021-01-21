@@ -20,9 +20,7 @@ nav_order: 2
 
 ## Introduction
 
-The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren).
-
-By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see [Pages with Children](#pages-with-children)).
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames. At quis risus sed vulputate odio ut enim. Maecenas ultricies mi eget mauris pharetra et ultrices neque. Vestibulum sed arcu non odio euismod lacinia at quis risus. Justo laoreet sit amet cursus sit amet dictum sit amet. Leo in vitae turpis massa. Diam donec adipiscing tristique risus nec feugiat. Quis viverra nibh cras pulvinar mattis nunc. Nisl tincidunt eget nullam non. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Diam vulputate ut pharetra sit. At augue eget arcu dictum varius.
 
 ---
 
