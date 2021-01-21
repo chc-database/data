@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Recording Data for Events
+title: Recording Events
 nav_order: 7
 ---
 
-# Recoding Data for Events
+# Recoding Events
 {: .no_toc }
 
 <details open markdown="block">

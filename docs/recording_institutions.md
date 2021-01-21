@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Recording Data for Institutions
+title: Recording Institutions
 nav_order: 5
 ---
 
-# Recoding Data for Institutions
+# Recoding Institutions
 {: .no_toc }
 
 <details open markdown="block">

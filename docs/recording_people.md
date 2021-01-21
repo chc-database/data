@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Recording Data for People
+title: Recording People
 nav_order: 4
 ---
 
-# Recoding Data for People
+# Recoding People
 {: .no_toc }
 
 <details open markdown="block">

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Recording Data for Corporate Entities
+title: Recording Corporate Entities
 nav_order: 6
 ---
 
-# Recoding Data for Corporate Entities
+# Recoding Corporate Entities
 {: .no_toc }
 
 <details open markdown="block">
