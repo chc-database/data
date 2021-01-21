@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Data Entry Basics
+title: Data Collection Basics
 nav_order: 3
 ---
 
-# Data Entry Basics
+# Data Collection Basics
 {: .no_toc }
 
 <details open markdown="block">
