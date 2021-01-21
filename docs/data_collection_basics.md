@@ -24,32 +24,30 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames. At q
 
 ---
 
-## Example 1
-Icidunt dui ut ornare lectus sit amet. Massa tincidunt dui ut ornare lectus sit amet. Eu feugiat pretium nibh ipsum consequat.
-
-### Header 3
-{: .no_toc }
-
-```
-This is a code box
-```
-#### Header 4
-{: .no_toc }
+## Effective Design
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu. Nunc scelerisque viverra mauris in. Elit ut aliquam purus sit amet luctus. In fermentum et sollicitudin ac orci phasellus. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Eu mi bibendum neque egestas congue quisque egestas diam in. Tincidunt dui ut ornare lectus sit amet. Massa tincidunt dui ut ornare lectus sit amet. Eu feugiat pretium nibh ipsum consequat. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Id faucibus nisl tincidunt eget. Tristique nulla aliquet enim tortor. In hac habitasse platea dictumst quisque sagittis. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
 
 ---
 
-## Example 2
-Icidunt dui ut ornare lectus sit amet. Massa tincidunt dui ut ornare lectus sit amet. Eu feugiat pretium nibh ipsum consequat.
+## Staying Consistent
 
-### Header 3
-{: .no_toc }
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu. Nunc scelerisque viverra mauris in. Elit ut aliquam purus sit amet luctus. In fermentum et sollicitudin ac orci phasellus. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Eu mi bibendum neque egestas congue quisque egestas diam in. Tincidunt dui ut ornare lectus sit amet. Massa tincidunt dui ut ornare lectus sit amet. Eu feugiat pretium nibh ipsum consequat. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Id faucibus nisl tincidunt eget. Tristique nulla aliquet enim tortor. In hac habitasse platea dictumst quisque sagittis. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
 
-```
-This is a code box
-```
-#### Header 4
-{: .no_toc }
+---
+
+## Eliminating Redundancy
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu. Nunc scelerisque viverra mauris in. Elit ut aliquam purus sit amet luctus. In fermentum et sollicitudin ac orci phasellus. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Eu mi bibendum neque egestas congue quisque egestas diam in. Tincidunt dui ut ornare lectus sit amet. Massa tincidunt dui ut ornare lectus sit amet. Eu feugiat pretium nibh ipsum consequat. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Id faucibus nisl tincidunt eget. Tristique nulla aliquet enim tortor. In hac habitasse platea dictumst quisque sagittis. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+
+---
+
+## Accountable Recording
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu. Nunc scelerisque viverra mauris in. Elit ut aliquam purus sit amet luctus. In fermentum et sollicitudin ac orci phasellus. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Eu mi bibendum neque egestas congue quisque egestas diam in. Tincidunt dui ut ornare lectus sit amet. Massa tincidunt dui ut ornare lectus sit amet. Eu feugiat pretium nibh ipsum consequat. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Id faucibus nisl tincidunt eget. Tristique nulla aliquet enim tortor. In hac habitasse platea dictumst quisque sagittis. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+
+---
+
+## Team-based Problem Solving
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu. Nunc scelerisque viverra mauris in. Elit ut aliquam purus sit amet luctus. In fermentum et sollicitudin ac orci phasellus. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Eu mi bibendum neque egestas congue quisque egestas diam in. Tincidunt dui ut ornare lectus sit amet. Massa tincidunt dui ut ornare lectus sit amet. Eu feugiat pretium nibh ipsum consequat. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Id faucibus nisl tincidunt eget. Tristique nulla aliquet enim tortor. In hac habitasse platea dictumst quisque sagittis. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
