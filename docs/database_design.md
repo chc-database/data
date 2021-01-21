@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Recording Data for People
-nav_order: 4
+title: Database Design
+nav_order: 2
 ---
 
-# Recoding Data for People
+# Design of the CHCD
 {: .no_toc }
 
 <details open markdown="block">
