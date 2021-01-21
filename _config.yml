@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: CHCD Bulk Data Collection Documentation
 description: Documentation for how to record data so it is useable for the China Historical Christian Database
-# baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://chcdatabase.github.io/data-collection" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/data-collection" # the subpath of your site, e.g. /blog
+url: "https://chcdatabase.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
@@ -24,7 +24,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "assets/images/CHCD_logo.png"
+logo: "/assets/images/CHCD_logo.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
