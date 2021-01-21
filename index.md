@@ -6,7 +6,7 @@ description: "CHCD Documentation for Data Entry"
 permalink: /
 ---
 
-# Focus on writing good data entry
+# Focus on writing good data
 {: .fs-9 }
 
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
