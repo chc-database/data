@@ -4,7 +4,7 @@ title: Recording Events
 nav_order: 7
 ---
 
-# Recoding Events
+# Recording Events
 {: .no_toc }
 
 <details open markdown="block">

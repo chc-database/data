@@ -4,7 +4,7 @@ title: Recording Corporate Entities
 nav_order: 6
 ---
 
-# Recoding Corporate Entities
+# Recording Corporate Entities
 {: .no_toc }
 
 <details open markdown="block">

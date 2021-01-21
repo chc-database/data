@@ -4,7 +4,7 @@ title: Recording Institutions
 nav_order: 5
 ---
 
-# Recoding Institutions
+# Recording Institutions
 {: .no_toc }
 
 <details open markdown="block">

@@ -4,7 +4,7 @@ title: Recording People
 nav_order: 4
 ---
 
-# Recoding People
+# Recording People
 {: .no_toc }
 
 <details open markdown="block">
