@@ -2,11 +2,11 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "CHCD Documentation for Data Entry"
 permalink: /
 ---
 
-# Focus on writing good documentation
+# Focus on writing good data entry
 {: .fs-9 }
 
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
@@ -62,7 +62,7 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 
 ### Configure Just the Docs
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+- [See configuration options]({{ site.baseurl }}{% link docs/chcd_design.md %})
 
 ---
 

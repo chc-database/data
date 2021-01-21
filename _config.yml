@@ -13,24 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Docs
-description: A Jekyll theme for documentation
-baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
-url: "https://pmarsceill.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: China Historical Christian Database | Bulk Data Entry Documentation
+description: Documentation for how to record data so it is useable for the China Historical Christian Database
+baseurl: "/data-collection" # the subpath of your site, e.g. /blog
+url: "chcdatabase.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"
 ]
 
-# Regression tests
-# By default, the pages in /docs/tests are excluded when the ste is built.
-# To include them, comment-out the relevant line above.
-# Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
-# include: ["docs/tests/"]
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+logo: "/assets/images/CHCD_logo.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -63,9 +57,9 @@ search:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
+# aux_links:
+#  "Just the Docs on GitHub":
+#    - "//github.com/pmarsceill/just-the-docs"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -102,8 +96,8 @@ color_scheme: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: UA-2709176-10
-ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+# ga_tracking: UA-2709176-10
+# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
   - jekyll-seo-tag
