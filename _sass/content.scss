@@ -41,6 +41,7 @@
 
     > li {
       position: relative;
+      font-weight: bold;
 
       &::before {
         position: absolute;
@@ -60,6 +61,7 @@
         counter-reset: sub-counter;
 
         li {
+          font-weight: normal;
           &::before {
             content: counter(sub-counter, lower-alpha);
             counter-increment: sub-counter;
