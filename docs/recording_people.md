@@ -523,6 +523,8 @@ As historical sources may not include all of this data, it is important to adapt
 
 In the CHCD, geography is controlled by allowing only institutions and events to have geographic locations. For more on this design choice, see [Database Design](/docs/database_design/) and [Geography](/docs/geography/). Thus, while persons do not have direct geography, it is usually best practice to include geographic information when recording data. If collected in a clean manner, it can be integrated into the database's controlled geography system.
 
+Also, remmeber to use placeholder institutions when a person is present in a location, but is not institutionally affiliated. For more on the correct formatting of placeholder institutions, see [Placeholder Institutions](/docs/geography/#placeholder-institutions).
+
 #### EXAMPLE HEADER FORMAT
 {: .no_toc }
 ```
@@ -532,7 +534,7 @@ Institution; Start YYYY; Relationship Type; Recorded Place Name; Modern Place Na
 {: .no_toc }
 ```
 Jesuit College of Macao; 1921; Guest; Macau; Macao; C979; Worked as pharmacist while present.
-Unknown Institution in Shanxi; 1933; Evangelist; Shansi; Shanxi; C979;
+General Area (Shanxi); 1933; Evangelist; Shansi; Shanxi; C979;
 ```
 ---
 
