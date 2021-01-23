@@ -292,7 +292,7 @@ Reverend (1937)
 ### occupations
 Occupations held before or during their time in China.  Provide dates, if available. Separate by semicolon if there are more than one jobs.
 
->*Note: Occupations is used to describe more general work roles or occupations not linke to a specific place or institution. If the location or employing institution is known, see the [PRESENT_AT](#present_at) relationship.*
+>*Note: Occupations is used to describe more general work roles or occupations not linked to a specific place or institution. If the location or employing institution is known, see the [PRESENT_AT](#present_at) relationship.*
 
 #### FORMAT
 {: .no_toc }
