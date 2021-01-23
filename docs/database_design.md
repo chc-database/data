@@ -29,7 +29,7 @@ Graph databases mimic the natural relationships that exist in the real world; th
 
 The example image and four definitions below offer a basic understanding of the graph database approach:
 
-![Graph Database Example Image](/assets/images/graph_example.jpg)
+![Graph Database Example Image](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/graph_example.jpg)
 
 ### Terminology
 
