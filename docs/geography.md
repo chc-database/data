@@ -46,13 +46,13 @@ Secondly, geography is only created when Institution nodes or Event nodes are re
 ### Reducing the Risk of Redundancy and Errors
 Recording the location of people and institutions separately is a clear form of redundancy. Take the following example; Person A is present at Church B and both are in Village C. If these relationships were recorded separately the graph would look like this.
 
-![Graph Example of Redundancy Error](/assets/images/graph_example_2.jpg)
+![Graph Example of Redundancy Error](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/graph_example_2.jpg)
 
 In this schema, relationships 2 and 3 are communicating essentially the same data. Moreover, if the institution were to change cities, two new relationships would need to be created. Errors are more probable because of this redundant relationship. For example, if a researchers discovered that the institution was actually location in a nearby village, Village D, they would go to the database and change relationship 3. In order to update the relevant individual location they would need to query the database for a list of all personnel who are related to Institution B and Village C, and then they would need to manually update them. Any human slip could cause a massive amount of erroneous data.
 
 The below CHCD schema eliminates this redundancy, reduces the number of relationships needed to communicate the same information, and minimizes the potential for erroneous data.
 
-![Graph Example of Fixed Redundancy Error](/assets/images/graph_example_3.jpg)
+![Graph Example of Fixed Redundancy Error](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/graph_example_3.jpg)
 
 ### Decreases the Amount of Work
 

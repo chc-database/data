@@ -47,7 +47,7 @@ These four main nodes and five geographic nodes are connected by seven kinds of 
 
 The below schema depicts the overall structure of the database by showing what relationships are possible between the various types of nodes.
 
-![Graph Database Example Image](/assets/images/graph_example.jpg)
+![Graph Database Example Image](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/graph_example.jpg)
 
 ### Node Descriptions
 
