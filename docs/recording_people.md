@@ -576,7 +576,7 @@ P120; Parent of; P256; 1948
 P024; Schoolmate of; P002; --; --; Studied Chinese together.
 ```
 
---
+---
 
 ## Example Spreadsheets
 As stated throughout, make sure to design your spreadsheet to work most efficiently with your source materials. That said, it can be helpful to see examples of spreadsheets in action.
