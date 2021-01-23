@@ -290,9 +290,9 @@ Reverend (1937)
 ---
 
 ### occupations
-Occupations held before or during their time in China.  Provide employer and dates, if available. Separate by semicolon if there are more than one jobs.
+Occupations held before or during their time in China.  Provide dates, if available. Separate by semicolon if there are more than one jobs.
 
->*Note: These are not typically linked to a specific place, or the location of the job is unknown. If the location is known, see the [Location](#location) relationship.*
+>*Note: Occupations is used to describe more general work roles or occupations not linke to a specific place or institution. If the location or employing institution is known, see the [:PRESENT_AT](#present_at) relationship.*
 
 #### FORMAT
 {: .no_toc }
@@ -303,7 +303,7 @@ Occupation, Employer (YYYY); Occupation, Employer (YYYY)
 {: .no_toc }
 ```
 Lecturer; Procurator
-Evangelist, Bethel Mission (1934)
+Painter; Notary; Author
 ```
 ---
 
