@@ -282,7 +282,7 @@ List all honorary and ecclesial titles obtained by individuals throughout their 
 Title (YYYY); Title (YYYY)
 ```
 #### EXAMPLES
-{: .no_toc
+{: .no_toc}
 ```
 Apostolic Prefect of Formosa; Apostolic Prefect of Terra Australis (1664)
 Reverend (1937)
