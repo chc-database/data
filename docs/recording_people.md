@@ -21,7 +21,7 @@ nav_order: 4
 
 People are the most numerous kind of node in the China Historical Database (CHCD). As such, the database has numerous properties which can be used to record information about people. This documentation provides guidelines to help you format your own data collection sheets so that the data can be readily cleaned and inputted into the CHCD.
 
-Most of these properties cannot be conceptualized as a relationships. However, the CHCD team chose to record a select number of properties as static which could have been otherwise recorded. This choice was due to ensure that future queries of the data did not become too complex or worse, unmeaningful.
+Most of these properties cannot be conceptualized as a relationship. However, the CHCD team chose to record some relational data as static properties. This choice was made to ensure that future queries of the data did not become too complex or worse, meaningless.
 
 Each section provides a description of what is being recorded, a general format for how to record, and examples.
 
@@ -69,7 +69,19 @@ Victorio Riccio; Victorius Riccius
 Sung, John
 ```
 ### chinese_name_romanized
-Chinese name in Romanized script, pinyin first followed by any other spelling system. Separate family and given name with a comma. Alternative spellings with a semicolon. Designate the romanization system used when possible.
+Chinese name in Romanized script, pinyin first followed by any other spelling system. Separate family and given name with a comma. Alternative spellings with a semicolon. Designate the romanization system by abbreviation when possible.
+
+Here is a list of the most common romanization systems utilized with suggested abbreviation:
+
+- *(py)*: Hanyu pinyin
+- *(wg)*: Wade-Giles
+- *(y)*: Yale
+- *(lsw)*: Latinhua Sin Wenz
+- *(gr)*: Gwoyeu Romatzyh (National Romanization)
+- *(j2)*: Juyin II
+- *(po)*: Chinese Post Office System
+- *(rt)*: Ricci-Trigault System
+- *(ef)*: Système de l'École Française d'Extrême-Orient
 
 >*Note: This property will be divided into two properties when put into the database (chinese_family_name_romanized; chinese_given_name_romanized). They are combined here for data entry efficiency.*
 
@@ -82,13 +94,24 @@ Family, Given Name (system); Family, Given Name (system);
 {: .no_toc }
 ```
 Li, Sheng (py)
-Shang, Jie (py); Siong, Ceh (wg);
+Shang, Jie (py); Siong, Ceh (y);
 ```
 ---
 
 ### chinese_alternate_name_romanized
-Alternate Chinese names, including different spellings, that the individual is recorded under. If listing more than one name, use a semicolon to separate the entries. Designate the romanization system used when possible.
+Alternate Chinese names, including different spellings, under which the individual is recorded. These include the Chinese courtesy name (zi), alternative name (hao) and other courtesy or honorific names (See, [chinese_alternative_name_hanzi](# chinese_alternative_name_hanzi) for more types). If listing more than one name, use a semicolon to separate the entries. Designate the romanization system by abbreviation when possible.
 
+Here is a list of the most common romanization systems utilized with suggested abbreviation:
+
+- *(py)*: Hanyu pinyin
+- *(wg)*: Wade-Giles
+- *(y)*: Yale
+- *(lsw)*: Latinhua Sin Wenz
+- *(gr)*: Gwoyeu Romatzyh (National Romanization)
+- *(j2)*: Juyin II
+- *(po)*: Chinese Post Office System
+- *(rt)*: Ricci-Trigault System
+- *(ef)*: Système de l'École Française d'Extrême-Orient
 #### FORMAT
 {: .no_toc }
 ```
@@ -122,6 +145,18 @@ The family name [姓] and given name [名] of an individual, typed in *tradition
 ### chinese_alternative_name_hanzi
 Include any zi [字] or hao [號]，or other Chinese alternate names utilized by the individual, followed by the type in parenthesis. Alternate names should be types in *traditional* (i.e. non-simplified) characters, and *pinyin* should be used to record the type.
 
+A list of the most common name types is below:
+- *xing [姓]*: family names
+- *xiaozi/xioaming [小字/小名]*: childhood name
+- *ming [名]*: given name
+- *zi [字]*: courtesy name
+- *hao [號]*: self-selected alternative name
+- *chuohao [綽號]*: nickname given by others
+- *guanzhi/guanjue [官職/官爵]*: office names
+- *shihao [諡號]*: posthumous title granted by state
+- *zunhao [尊號]*: honorific name granted by others
+- *miahao [廟號]*: temple title
+
 #### FORMAT
 {: .no_toc }
 ```
@@ -140,12 +175,11 @@ Use the following notation to record the gender of an individual:
 - **M** = Male
 - **F** = Female
 - **U** = Unknown
-- **N** = Non-binary
 
 ---
 
 ### nationality
-List the modern nation-state which occupies the same geography as the birthplace of the individual. Record in English.
+List the modern nation-state which occupies the same geographic location as the birthplace of the individual. Record in English.
 
 #### FORMAT
 {: .no_toc }
@@ -161,7 +195,7 @@ China
 ---
 
 ### birth_date
-List the date of birth.
+List the date of birth in the Gregorian calendar in this order, separated by semicolon: day; month; year. If only a Chinese lunar calendar date is available to you, use a [calendrical concordance](https://sinocal.sinica.edu.tw/) to convert it to the Gregorian calendar.
 
 #### FORMAT
 {: .no_toc }
@@ -177,7 +211,7 @@ YYYY; MM; DD
 ---
 
 ### birth_place
-List the place of birth. The name of the place is recorded in its original language, as well as its modern equivalent. If the location is in China, a [Geography Code](/docs/geography) is added.
+List the place of birth. The name of the place is recorded in its original language, as well as its modern English equivalent. If the location is in China, a [Geography Code](/docs/geography/#geographic_code_system) is added.
 
 #### FORMAT
 {: .no_toc }
@@ -193,7 +227,7 @@ Wu-Chang; Wuchang District; C451
 ---
 
 ### death_date
-List the date of death.
+List the date of death in the Gregorian calendar in this order, separated by semicolon: day; month; year. If only a Chinese lunar calendar date is available to you, use a [calendrical concordance](https://sinocal.sinica.edu.tw/) to convert it to the Gregorian calendar.
 
 #### FORMAT
 {: .no_toc }
@@ -225,7 +259,7 @@ Wu-Chang; Wuchang District; C451
 ---
 
 ## Descriptive Static Properties
-These are descriptive properties which are recorded non-relationally in the database. They are *descriptive* because they refer primarily to a affiliations and accomplishments of the person.
+These are descriptive properties which are recorded non-relationally in the database. They are *descriptive* because they refer primarily to affiliations and accomplishments of the person.
 
 Below is a list of descriptive static properties which should be recorded if your historical document contains them.
 
@@ -308,7 +342,7 @@ Painter; Notary; Author
 ---
 
 ## Catholic-Specific Static Properties
-These are properties which are recorded non-relationally in the database. They are *Catholic-specific* because they typically only used by Catholic individuals.
+These are properties which are recorded non-relationally in the database. They are *Catholic-specific* because they typically are only used by Catholic individuals.
 
 Below is a list of Catholic-specific static properties which should be recorded if your historical document contains them.
 
@@ -330,7 +364,20 @@ Paul
 ---
 
 ### chinese_baptismal_name_romanized
-Mainly used for Chinese converts. Chinese baptismal name in Romanized script, pinyin first followed by any other spelling system. Designate the romanization system used when possible.
+Mainly used for Chinese converts. Chinese baptismal name in Romanized script, pinyin first followed by any other spelling system. Designate the romanization system by abbreviation when possible.
+
+Here is a list of the most common romanization systems utilized with suggested abbreviation:
+
+- *(py)*: Hanyu pinyin
+- *(wg)*: Wade-Giles
+- *(y)*: Yale
+- *(lsw)*: Latinhua Sin Wenz
+- *(gr)*: Gwoyeu Romatzyh (National Romanization)
+- *(j2)*: Juyin II
+- *(po)*: Chinese Post Office System
+- *(rt)*: Ricci-Trigault System
+- *(ef)*: Système de l'École Française d'Extrême-Orient
+
 #### FORMAT
 {: .no_toc }
 ```
@@ -369,7 +416,7 @@ Originating Province
 #### EXAMPLE
 {: .no_toc }
 ```
-Province of Portugal
+Province of Our Lady of the Most Holy Rosary (Philippines)
 ```
 ---
 
@@ -404,7 +451,7 @@ YYYY; MM; DD
 ---
 
 ### vows
-List the vows which the person took and dates, if available. Vows should be seperated by semicolons.
+List the vows which the person took and dates, if available. Vows should be separated by semicolons.
 
 #### FORMAT
 {: .no_toc }
@@ -443,7 +490,7 @@ Most likely died from cholera.
 ---
 
 ### source
-List the sources where the information in this table has been found, followed by page number in parenthesis. Indicate first major reference sources used, then more focused sources if some specific information is not in main reference sources (indicate what). Sources can be indicated in abbreviated form or with acronyms (e.g Dehergne Repertoire, 159).
+List the sources where the information in this table has been found, followed by page number in parenthesis. Indicate first major reference sources used, then more focused sources if some specific information is not in main reference sources (indicate what). Sources can be indicated in abbreviated form or with acronyms (e.g *Dehergne Repertoire*, 159).
 
 #### FORMAT
 {: .no_toc }
@@ -479,12 +526,12 @@ This relationship also has its own properties which can be used to record data a
 - ```end_month``` : Records the ending year of the relationship.
 - ```end_day``` : Records the ending year of the relationship.
 - ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested to.
+- ```source``` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING AFFILIATED_WITH RELATIONSHIPS
 {: .no_toc }
 
-As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficient. When entering data, make it clear in table headings which kind of data is being collected in the column.
+As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficiency. When entering data, make it clear in table headings which kind of data is being collected in the column.
 
 Also, the CHCD project team maintains a running list of abbreviations for the most common Christian organizations in operation in China throughout the time period of the project. [This list can be found here.](https://docs.google.com/spreadsheets/d/1uhnh-WsTL6cu-kHndIVEBQpXGOLv6Cq6XVPuQ5YhUos/edit?usp=sharing) Please feel free to use these abbreviations to help your data entry be more efficient
 
@@ -514,16 +561,14 @@ This relationship also has its own properties which can be used to record data a
 - ```end_month``` : Records the ending year of the relationship.
 - ```end_day``` : Records the ending year of the relationship.
 - ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested to.
+- ```source``` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING PRESENT_AT RELATIONSHIPS
 {: .no_toc }
 
-As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficient. When entering data, make it clear in table headings which kind of data is being collected in the column.
+As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficiency. When entering data, make it clear in table headings which kind of data is being collected in the column.
 
-In the CHCD, geography is controlled by allowing only institutions and events to have geographic locations. For more on this design choice, see [Database Design](/docs/database_design/) and [Geography](/docs/geography/). Thus, while persons do not have direct geography, it is usually best practice to include geographic information when recording data. If collected in a clean manner, it can be integrated into the database's controlled geography system.
-
-Also, remmeber to use placeholder institutions when a person is present in a location, but is not institutionally affiliated. For more on the correct formatting of placeholder institutions, see [Placeholder Institutions](/docs/geography/#placeholder-institutions).
+Please remember, in the CHCD, geography is controlled by allowing only institutions and events to have geographic locations (For more on this design choice, see [Database Design](/docs/database_design/) and [Geography](/docs/geography/). As such, persons are not directly linked to geographic nodes in the database. Due to this, one should use placeholder institutions when a person is present in a location, but is not institutionally affiliated. For more on the correct formatting of placeholder institutions, see [Placeholder Institutions](/docs/geography/#placeholder-institutions).
 
 #### EXAMPLE HEADER FORMAT
 {: .no_toc }
@@ -550,14 +595,14 @@ This relationship also has its own properties which can be used to record data a
 - ```end_month``` : Records the ending year of the relationship.
 - ```end_day``` : Records the ending year of the relationship.
 - ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested to.
+- ```source``` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING RELATED_TO RELATIONSHIPS
 {: .no_toc }
 
-All people with recorded relationships will be entered into the database. As such, it is usually good to take the time to record the [Identifying Static Properties](#Identifying Static Properties) of the person who may have a relationship with the main focus of your research. If this route is pursued, individuals can be assigned temporary ID numbers that will make it easier to record relationships.
+All people with recorded relationships will be entered into the database. As such, it is best to record the [Identifying Static Properties](#Identifying Static Properties) of anyone who is recorded in a relationship. This methodical approach allows you to assign temporary ID numbers to individuals. These ID numbers can be used to help record relationships in a more timely manner. See [Example Spreadsheet 2](#spreadsheer_2_mulit-person_research), for an example of this approach.
 
-Also, it is important to remember that all relationships in the CHCD are directional. Sometimes, this directionality is meaningless (e.g. X is Friend to Y and Y is Friend to X), but sometimes it means that the ```relationship_type``` property true in only one direction (e.g. X is Parent of Y, but Y is not Parent of X). Please keep this in mind as you record your data.
+Also, it is important to remember that all relationships in the CHCD are directional. Sometimes, this directionality is meaningless (e.g. X is Friend to Y and Y is Friend to X), but sometimes it means that the ```relationship_type``` property is true in only one direction (e.g. X is Parent of Y, but Y is not Parent of X). Please keep this in mind as you record your data.
 
 #### EXAMPLE HEADER FORMAT
 {: .no_toc }

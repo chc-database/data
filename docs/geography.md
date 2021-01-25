@@ -41,20 +41,20 @@ While this runs the risk of reading modern geography into the past (a risk inher
 ---
 
 ## Controlled Geographic Interaction
-Secondly, geography is only created when Institution nodes or Event nodes are related to one of the geographic nodes of the database. This initially seems counter-intuitive as historical persons also inhabited space and moved between spaces. Allowing persons to have geography, however, has two main problems: 1) it increases the chance of redundancy and errors and 2) it is more work. The CHCD solves both of these problems through by controlling interaction with geographic nodes.
+Secondly, geography is only created when Institution nodes or Event nodes are related to one of the geographic nodes of the database. This initially seems counter-intuitive as historical persons also inhabited space and moved between spaces. Allowing persons to have geography, however, has two main problems: 1) it increases the chance of redundancy and errors and 2) it is more work. The CHCD solves both of these problems by controlling interaction with geographic nodes.
 
 ### Reducing the Risk of Redundancy and Errors
 Recording the location of people and institutions separately is a clear form of redundancy. Take the following example; Person A is present at Church B and both are in Village C. If these relationships were recorded separately the graph would look like this.
 
 ![Graph Example of Redundancy Error](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/graph_example_2.jpg)
 
-In this schema, relationships 2 and 3 are communicating essentially the same data. Moreover, if the institution were to change cities, two new relationships would need to be created. Errors are more probable because of this redundant relationship. For example, if a researchers discovered that the institution was actually location in a nearby village, Village D, they would go to the database and change relationship 3. In order to update the relevant individual location they would need to query the database for a list of all personnel who are related to Institution B and Village C, and then they would need to manually update them. Any human slip could cause a massive amount of erroneous data.
+In this schema, relationships 2 and 3 are communicating essentially the same data. Moreover, if the institution were to change cities, two new relationships would need to be created. Errors are more probable because of this redundant relationship. For example, if a researchers discovered that the institution was actually located in a nearby village, Village D, they would go to the database and change relationship 3. In order to update the relevant individual location they would need to query the database for a list of all personnel who are related to Institution B and Village C, and then they would need to manually update them. Any human slip could cause a massive amount of erroneous data.
 
 The below CHCD schema eliminates this redundancy, reduces the number of relationships needed to communicate the same information, and minimizes the potential for erroneous data.
 
 ![Graph Example of Fixed Redundancy Error](https://raw.githubusercontent.com/chcdatabase/data-collection/gh-pages/assets/images/graph_example_3.jpg)
 
-### Decreases the Amount of Work
+### Decrease in the Amount of Work
 
 As demonstrated above, giving individuals unique relationships to geography can dramatically increase the amount of work needed to update historical markers. In this instance, controlling the connectivity between nodes allows the data structure to remain easy to update and modify without a massive amount of repeated actions. Consider the above example again. If there were 10 individuals connected to Institution B, a direct person-to-geography model would require creating 21 relationships. If the Village was modified, it would require altering 11 of those relationships. The CHCD model only requires 11 relationships to convey the same amount of information and the same change would only require modifying 1 relationship.
 
@@ -86,11 +86,11 @@ General Area (Beijing)
 
 ## Geographic Code System
 
-The multi-level geography CHCD depends upon the modern administrative divisions of China (as of 2019). While the original place name spellings should be recorded, the ```:Geography``` are names according to the modern geography of China.
+The multi-level geography CHCD depends upon the modern administrative divisions of China (c. 2009). While the original place name spellings should be recorded, the ```:Geography``` are names according to the modern geography of China.
 
 To aid in the collection of data, the CHCD team has created a Geography Code system whereby each of the administrative divisions of China can be referenced through a short alphanumeric ID.
 
-When recording geographic information, please use this spreadsheet to ensure that your data can be accurately placed on the map. Currently, the code system includes codes for all county-level prefecture-level, and province-level administrative divisions.
+When recording geographic information, please use this spreadsheet to ensure that your data can be accurately placed on the map. Currently, the code system includes codes for all county-level, prefecture-level, and province-level administrative divisions.
 
 Click the button below to view the geography code system spreadsheet:
 
@@ -103,4 +103,5 @@ When using the geography code system, it is important to try to follow these pri
 - **Locate the Modern Equivalent**: Modern locations may have changed names and administrative divisions multiple times throughout history. To the best of your ability, try to supply the geography code of the modern administrative division which occupies the same space as your historical location. This may require some research.
 - **Be Granular**: The CHCD uses centroid points for each administrative division to assign it geography. This means, that the smaller the administrative division is the more accurate its geography is. When recording geographic locations, try your best to find the smallest administrative division which corresponds to your historical location. For example, large cities are often far larger today than they were in the past. Though the historical and modern location might share the same name, it may be necessary to designate a specific district which better corresponds to the actual historical location.
 - **Be Responsible**: The CHCD depends upon the quality of data collected by its partners and collaborating researchers. This means that one should be relatively sure when assigning a geographic code to a historical location. When in doubt of a location, it is always acceptable to assign the location to the geography code of a larger administrative division which you are more sure of.
-- **Add More, Be a Hero**: It is often improbable, if not impossible, to locate and the exact location of a historical village or township and relate it to its modern equivalent. That said, the database is capable of recording village and township level data. Please contact the CHCD project team if you have village or township data that you would like to contribute to the database.
+- **Be Careful**: Today, China generally has five-levels of administration (village-level, township-level, county-level, prefecture-level, province-level). Sometimes, administrative divisions may be at the same level but employ different nomenclature (e.g. Shanxi Province, Beijing Municipality, Macau Special Zone, and Xinjiang Autonomous Region are all "province-level" divisions). Be aware of these differences, and refer to the Geographic Code System to find the most accurate designation.
+- **Add More, Be a Hero**: It is often improbable, if not impossible, to locate the exact location of a historical village or township and relate it to its modern equivalent. That said, the database is capable of recording village and township level data. Please contact the CHCD project team if you have village or township data that you would like to contribute to the database.
