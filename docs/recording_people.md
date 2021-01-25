@@ -94,7 +94,7 @@ Family, Given Name (system); Family, Given Name (system);
 {: .no_toc }
 ```
 Li, Sheng (py)
-Shang, Jie (py); Siong, Ceh (y);
+Shang, Jie (py); Siong, Ceh (unknown)
 ```
 ---
 
@@ -165,7 +165,7 @@ A list of the most common name types is below:
 #### EXAMPLE
 {: .no_toc }
 ```
-天恩 (zi)
+天恩 (xiaozi)
 ```
 ---
 
