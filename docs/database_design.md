@@ -84,7 +84,7 @@ Christian people moved between institutions, institutions changed locations, and
 ### Controls Complex and Fuzzy Geographies
 {: .no_toc }
 
-Geography is regulated using two principles. First, the only nodes that have geographic coordinates attached to them are geography nodes (i.e. Village, Township, County, Prefecture, Province). Second, the only nodes which can relate to geography nodes are Institution and Event nodes. These principles, in turn, accomplish two main goals: 1) historical locations with varying levels of geographic specificity can be recorded, and 2) redundancy and errors are reduced. For more information, see the documentation on [Geography](/docs/geography).
+Geography is regulated using two principles. First, the only nodes that have geographic coordinates attached to them are geography nodes (i.e. Village, Township, County, Prefecture, Province). Second, the only nodes which can relate to geography nodes are Institution and Event nodes. These principles, in turn, accomplish two main goals: 1) historical locations with varying levels of geographic specificity can be recorded, and 2) redundancy and errors are reduced. For more information, see the documentation on [Geography](/geography).
 
 ### Easy and Understandable Query
 {: .no_toc }

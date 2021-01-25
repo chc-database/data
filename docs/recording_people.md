@@ -25,7 +25,7 @@ Most of these properties cannot be conceptualized as a relationship. However, th
 
 Each section provides a description of what is being recorded, a general format for how to record, and examples.
 
->*Note: These general formats are suggestions for use in your own data collection, however, please refer to [Data Collection Basics](/docs/data_collection_basics/) before designing your own spreadsheets.*
+>*Note: These general formats are suggestions for use in your own data collection, however, please refer to [Data Collection Basics](/data_collection_basics/) before designing your own spreadsheets.*
 
 ---
 
@@ -211,7 +211,7 @@ YYYY; MM; DD
 ---
 
 ### birth_place
-List the place of birth. The name of the place is recorded in its original language, as well as its modern English equivalent. If the location is in China, a [Geography Code](/docs/geography/#geographic_code_system) is added.
+List the place of birth. The name of the place is recorded in its original language, as well as its modern English equivalent. If the location is in China, a [Geography Code](/geography/#geographic_code_system) is added.
 
 #### FORMAT
 {: .no_toc }
@@ -243,7 +243,7 @@ YYYY; MM; DD
 ---
 
 ### death_place
-List the place of death. The name of the place is recorded in its original language, as well as its modern equivalent. If the location is in China, a [Geography Code](/docs/geography) is added.
+List the place of death. The name of the place is recorded in its original language, as well as its modern equivalent. If the location is in China, a [Geography Code](/geography) is added.
 
 #### FORMAT
 {: .no_toc }
@@ -568,7 +568,7 @@ This relationship also has its own properties which can be used to record data a
 
 As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficiency. When entering data, make it clear in table headings which kind of data is being collected in the column.
 
-Please remember, in the CHCD, geography is controlled by allowing only institutions and events to have geographic locations (For more on this design choice, see [Database Design](/docs/database_design/) and [Geography](/docs/geography/). As such, persons are not directly linked to geographic nodes in the database. Due to this, one should use placeholder institutions when a person is present in a location, but is not institutionally affiliated. For more on the correct formatting of placeholder institutions, see [Placeholder Institutions](/docs/geography/#placeholder-institutions).
+Please remember, in the CHCD, geography is controlled by allowing only institutions and events to have geographic locations (For more on this design choice, see [Database Design](/database_design/) and [Geography](/geography/). As such, persons are not directly linked to geographic nodes in the database. Due to this, one should use placeholder institutions when a person is present in a location, but is not institutionally affiliated. For more on the correct formatting of placeholder institutions, see [Placeholder Institutions](/geography/#placeholder-institutions).
 
 #### EXAMPLE HEADER FORMAT
 {: .no_toc }
