@@ -33,7 +33,7 @@ Due to various dialects, romanization systems, and changing political boundaries
 | Historic Name | Modern Name | CHCD Geocode | Note |
 |:-------|:-------|:------|:------|
 | Chone | Jonê (卓尼县) | C2175 | |
-| Targegon | *Unknown* | O6 | CMA missionaries were located in the nearby town of Jonê and were not active in Qinghai after 1899, so it has the highest possibility of being in Gansu province. | 
+| Targegon | *Unknown* | O6 | CMA missionaries were located in the nearby town of Jonê and were not active in Qinghai after 1899, so it has the highest possibility of being in Gansu province. |
 
 
 ---
@@ -248,7 +248,7 @@ Due to various dialects, romanization systems, and changing political boundaries
 
 ---
 
-### Locations in Guizhou (Kweichow 贵州)
+### Locations in Guizhou (贵州)
 
 | Historic Name | Modern Name | CHCD Geocode | Note |
 |:-------|:-------|:------|
@@ -540,7 +540,7 @@ Due to various dialects, romanization systems, and changing political boundaries
 
 ---
 
-### Locations in Manchuria (满洲/东三省/东九省)
+### Locations in Manchuria (满洲 / 东三省 / 东九省)
 
 | Historic Name | Modern Name | CHCD Geocode | Note |
 |:-------|:-------|:------|
