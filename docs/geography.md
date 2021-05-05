@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Geography
+title: Geography System
 nav_order: 8
 ---
 
