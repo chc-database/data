@@ -280,7 +280,7 @@ Due to various dialects, romanization systems, and changing political boundaries
 
 ---
 
-### Locations in Henan (Honan 河南)
+### Locations in Henan (河南)
 
 | Historic Name | Modern Name | CHCD Geocode | Note |
 |:-------|:-------|:------|
