@@ -375,7 +375,7 @@ These three categories are devised so as to offer a range of flexibility in reco
 ---
 
 ### PART_OF
-Typically, this is used to connect an institution to its organizational hierarchy (i.e. to corporate entity nodes). For Protestants, this usually records the specific denomination, missionary body, mission administrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South China Conference of the Assemblies of God, etc.) to which an institution belonged. For Catholics and Orthodox, this usually indicate the specific diocese, province, or vicarate that an institution belonged to (e.g. Luan Diocese, Vice Province of China, etc.)
+Typically, this is used to connect a person, institution, or corporate entity to its organizational hierarchy (i.e. to corporate entity nodes). For Protestants, this usually records the specific denomination, missionary body, mission administrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South China Conference of the Assemblies of God, etc.) to which an institution or person belonged. For Catholics and Orthodox, this usually indicate the specific diocese, province, or vicarate that an institution or person belonged to (e.g. Luan Diocese, Vice Province of China, etc.)
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
 - ```relationship_type``` : A one or two word descriptor of the institution's relationship to the corporate entity
@@ -407,40 +407,6 @@ Corporate Entity; Relationship Type; Start YYYY; End YYYY
 ```
 MEC South China Conference; Member
 Diocese of Luan; Church; 1920; 1935
-```
----
-
-### AFFILIATED_WITH
-Typically, this is used to capture the specific religious group that a person belonged to. For Protestants, this usually records the specific denomination, missionary body, mission adminstrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South China Conference of the Assemblies of God, etc.) to which a person belonged. For Catholics and Orthodox, this usually indicate the specific order or province (e.g. Discalced Carmelites, Vice Province of China, etc.) to which a person belonged.
-
-This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the person's relationship to the corporate entity
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
-
-#### NOTE ON COLLECTING AFFILIATED_WITH RELATIONSHIPS
-{: .no_toc }
-
-As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficiency. When entering data, make it clear in table headings which kind of data is being collected in the column.
-
-Also, the CHCD project team maintains a running list of abbreviations for the most common Christian organizations in operation in China throughout the time period of the project. [This list can be found here.](https://docs.google.com/spreadsheets/d/1uhnh-WsTL6cu-kHndIVEBQpXGOLv6Cq6XVPuQ5YhUos/edit?usp=sharing) Please feel free to use these abbreviations to help your data entry be more efficient.
-
-#### EXAMPLE HEADER FORMAT
-{: .no_toc }
-```
-Corporate Entity; Relationship Type; Start YYYY
-```
-#### EXAMPLE ENTRIES
-{: .no_toc }
-```
-MEC; Member; 1905
-SJ; Ordained; 1920
 ```
 ---
 

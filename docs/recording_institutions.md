@@ -456,7 +456,7 @@ I024; Oversees; I002; --; --; This began as a semi-independent medical facility.
 ---
 
 ### PART_OF
-Typically, this is used to connect an institution to its organizational hiearachy. For Protestants, this indicates the specific denomination, missionary body, mission adminstrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South CHina Conference of the Assemblies of God, etc.). For Catholics and Orthodox, this usually indicate the specific diocese, province, or vicarate (e.g. Luan Diocese, Vice Province of China, etc.)
+Typically, this is used to connect a person, institution, or corporate entity to its organizational hierarchy (i.e. to corporate entity nodes). For Protestants, this usually records the specific denomination, missionary body, mission administrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South China Conference of the Assemblies of God, etc.) to which an institution or person belonged. For Catholics and Orthodox, this usually indicate the specific diocese, province, or vicarate that an institution or person belonged to (e.g. Luan Diocese, Vice Province of China, etc.)
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
 - ```relationship_type``` : A one or two word descriptor of the institution's relationship to the corporate entity
