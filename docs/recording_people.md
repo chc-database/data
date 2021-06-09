@@ -68,6 +68,8 @@ Alternative Name; Alternative Name
 Victorio Riccio; Victorius Riccius
 Sung, John
 ```
+---
+
 ### chinese_name_romanized
 Chinese name in Romanized script, pinyin first followed by any other spelling system. Separate family and given name with a comma. Alternative spellings with a semicolon. Designate the romanization system by abbreviation when possible.
 
@@ -112,6 +114,7 @@ Here is a list of the most common romanization systems utilized with suggested a
 - *(po)*: Chinese Post Office System
 - *(rt)*: Ricci-Trigault System
 - *(ef)*: Système de l'École Française d'Extrême-Orient
+
 #### FORMAT
 {: .no_toc }
 ```
@@ -506,7 +509,7 @@ Eugenio Menegon, “Ricci, Francesco,” in  Dizionario biografico degli Italian
 
 ## Relationships
 People nodes can have three kinds of relationships in the CHCD:
-- [**AFFILIATED_WITH**](#affiliated_with): This links Person nodes to Corporate Entity nodes.
+- [**PART_OF**](#part_of): This links Person, Institution, and Event nodes to Corporate Entity nodes.
 - [**PRESENT_AT**](#present_at): This links Person nodes to Institution or Event nodes.
 - [**RELATED_TO**](#related_to): This links Person nodes to other Person nodes.
 
@@ -514,8 +517,8 @@ These three categories are devised so as to offer a range of flexibility in reco
 
 ---
 
-### AFFILIATED_WITH
-Typically, this is used to capture the specific religious group that a person belonged to. For Protestants, this indicates the specific denomination, missionary body, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, etc.). For Catholics and Orthodox, this indicates the specific religious order or sending agency, such as Discalced Carmelites; Jesuits; Dominicans, Propaganda Fide etc.).
+### PART_OF
+Typically, this is used to capture the specific religious group that a person belonged to. For Protestants, this usually records the specific denomination, missionary body, mission administrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South China Conference of the Assemblies of God, etc.) to which a person belonged. For Catholics and Orthodox, this usually indicate the specific order or province (e.g. Discalced Carmelites, Vice Province of China, etc.) to which a person belonged.
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
 - ```relationship_type``` : A one or two word descriptor of the person's relationship to the corporate entity
@@ -528,12 +531,12 @@ This relationship also has its own properties which can be used to record data a
 - ```note``` : Records any additional information about the relationship.
 - ```source``` : Records the source in which the relationship is attested.
 
-#### NOTE ON COLLECTING AFFILIATED_WITH RELATIONSHIPS
+#### NOTE ON COLLECTING PART_OF RELATIONSHIPS
 {: .no_toc }
 
 As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficiency. When entering data, make it clear in table headings which kind of data is being collected in the column.
 
-Also, the CHCD project team maintains a running list of abbreviations for the most common Christian organizations in operation in China throughout the time period of the project. [This list can be found here.](https://docs.google.com/spreadsheets/d/1uhnh-WsTL6cu-kHndIVEBQpXGOLv6Cq6XVPuQ5YhUos/edit?usp=sharing) Please feel free to use these abbreviations to help your data entry be more efficient
+Also, the CHCD project team maintains a running list of abbreviations for the most common Christian organizations in operation in China throughout the time period of the project. [This list can be found here.](https://docs.google.com/spreadsheets/d/1uhnh-WsTL6cu-kHndIVEBQpXGOLv6Cq6XVPuQ5YhUos/edit?usp=sharing) Please feel free to use these abbreviations to help your data entry be more efficient.
 
 #### EXAMPLE HEADER FORMAT
 {: .no_toc }

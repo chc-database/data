@@ -43,7 +43,7 @@ The example image and four definitions below offer a basic understanding of the 
 ## Graph Schema
 The CHCD has four main kinds of nodes (i.e. four node labels) in the database: ```:Person```, ```:CorporateEntity```, ```:Institution```, and ```Event```. In addition, there are five kinds of geographic nodes which represent the five different levels of geography in the database: ```:Village```, ```:Township```, ```:County```, ```:Prefecture```, and ```:Province```
 
-These four main nodes and five geographic nodes are connected by seven kinds of relationship (i.e. seven edge labels) in the database: ```:PART_OF```, ```:RELATED_TO```, ```:AFFILIATED_WITH```, ```:PRESENT_AT```, ```:PRESENT_IN```, ```:TOOK_PLACE_IN```, and ```:INSIDE_OF```.
+These four main nodes and five geographic nodes are connected by seven kinds of relationship (i.e. seven edge labels) in the database: ```:PART_OF```, ```:RELATED_TO```, ```:AFFILIATED_WITH```, ```:PRESENT_AT```, ```:LOCATED_IN```, ```:LINKED_TO```, and ```:INSIDE_OF```.
 
 The below schema depicts the overall structure of the database by showing what relationships are possible between the various types of nodes.
 
@@ -58,13 +58,15 @@ The below schema depicts the overall structure of the database by showing what r
 
 ### Relationship Descriptions
 
-- ```:PART_OF```: used to connect ```:CorporateEntity``` nodes to one another. Enables the ability to capture administrative hierarchies.
-- ```:RELATED_TO```: used to connect ```:Person``` nodes to each other. These can capture any sort of interpersonal relationship.
-- ```:AFFILIATED_WITH```: used to connect ```:Person``` nodes with ```:CorporateEntity``` nodes. Usually used to demarcate affiliation with a religious organization.
+- ```:PART_OF```: used to connect ```:Institution```, ```:Person```, and ```:Event``` nodes to ```:CorporateEntity``` nodes. Enables the ability to capture administrative hierarchies.
 - ```:PRESENT_AT```: used to connect ```:Person``` nodes to ```:Institution``` and ```:Event``` nodes. These relationships are the only way individuals receive geographic location in the database.
-- ```:PRESENT_IN```: used to connect ```:Institution``` nodes to geography nodes.
-- ```:TOOK_PLACE_IN```: used to connect ```:Event``` nodes to geography nodes.
+- ```:LOCATED_IN```: used to connect ```:Institution``` and ```:Event``` nodes to geography nodes.
+
+- ```:RELATED_TO```: used to connect ```:Person``` nodes to each other. These can capture any sort of interpersonal relationship.
+- ```:LINKED_TO```: used to connect ```:Institution``` nodes and ```:Event``` nodes. This can capture any sort of relationship between institutions and/or events.
+- ```:CONNECTED_TO```: used to connect ```:CorporateEntity``` nodes to each other. This can capture any sort of relationship between events.
 - ```:INSIDE_OF```: used to connect geography nodes to one another. This allows the database to reflect administrative hierarchy and fuzzy geograpahic data.
+
 
 ---
 
