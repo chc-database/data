@@ -461,7 +461,7 @@ This relationship also has its own properties which can be used to record data a
 #### NOTE ON COLLECTING CONNECTED_TO RELATIONSHIPS
 {: .no_toc }
 
-This relationship is most commonly used to capture hiearhies of administration (e.g. a diocese is part of an archdiocese, a mission conference is part of a mission agency, etc.). As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficiency. When entering data, make it clear in table headings which kind of data is being collected in the column.
+This relationship is most commonly used to capture hierarhies of administration (e.g. a diocese is part of an archdiocese, a mission conference is part of a mission agency, etc.). As historical sources may not include all of this data, it is important to adapt one's spreadsheet to fit the nature of the source for the sake of efficiency. When entering data, make it clear in table headings which kind of data is being collected in the column.
 
 Also, it is important to remember that all relationships in the CHCD are directional. This is especially important for CONNECTED_TO relationships, which tend to run in only one direction (e.g. X is a subunit of Y, but Y is not a subunit of X). Please keep this in mind as you record your data.
 
