@@ -55,7 +55,7 @@ SJ
 
 ---
 
-### historical_alternate_abbreviations
+### historical_alternate_abbreviation
 Text
 
 #### FORMAT
