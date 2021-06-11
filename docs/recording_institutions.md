@@ -19,12 +19,12 @@ nav_order: 5
 
 ## Introduction
 
-Institutions make up the second largest form of node within the China Historical Database (CHCD). They are important on a data model level as they are the primary way people nodes are connected to a geographic nodes. On a historical level, they are among the most important connecting points for Christian activity and community. Because of their importance, the database has numerous properties which can be used to record information about them.
+Institutions make up the second largest form of node within the China Historical Database (CHCD). They are important on a data model level as they are the primary way people nodes are connected to geographic nodes. On a historical level, they are among the most important connecting points for Christian activity and community. Because of their importance, the database has numerous properties which can be used to record information about them.
 
 This documentation provides guidelines to help you format your own data collection sheets so that the data can be readily cleaned and inputted into the CHCD. Each section provides a description of what is being recorded, a general format for how to record, and examples.
 
 ### Defining an Institution in the CHCD.
- In the CHCD, an *institution* is defined as any Christian organization which can reasonably be assigned a geographic location and which exist over an extended period of time. Typical examples include  churches, missions, schools, and medical facilities. This definition sets them apart from [Corporate Entities](/data-collection/docs/recording_corporate_entities) (which lack the ability to be assigned a geographic location) and [Events](/data-collection/docs/recording_events) (which do not tend to exist over an extended period of time). If there is any confusion on how to categorize an organization, please contact the CHCD project team.
+ In the CHCD, an *institution* is defined as any Christian organization which can reasonably be assigned a geographic location and which exists over an extended period of time. Typical examples include  churches, missions, schools, and medical facilities. This definition sets them apart from [Corporate Entities](/data-collection/docs/recording_corporate_entities) (which lack the ability to be assigned a geographic location) and [Events](/data-collection/docs/recording_events) (which do not tend to exist over an extended period of time). If there is any confusion on how to categorize an organization, please contact the CHCD project team.
 
 >*Note: These general formats are suggestions for use in your own data collection, however, please refer to [Data Collection Basics](/data-collection/docs/data_collection_basics/) before designing your own spreadsheets.*
 
@@ -342,10 +342,11 @@ Orthodox
 ### religious_family
 This property records the subgrouping to which an institution belonged.
 
-For Protestants this includes groupings such as: Lutheran, Methodist, Baptist etc. For Catholics, this includes groupings within a common general tradition, rule, or order, such as: Augustinian, Benedictine, Franciscan, Ignatian, etc. These large ‘regular’ orders were often composed of subgroups (e.g. Discalced Augustinians, Observant Friars Minor, Reformed Friars Minor, etc.). Use the [religious_body](#religious_body) property to define the precise group. Groups which do not generally fall into a clearly defined family can be labeled as "Independent"
+For Protestants this includes groupings such as: Lutheran, Methodist, Baptist etc. For Catholics, this includes groupings within a common general tradition, rule, or order, such as: Augustinian, Benedictine, Franciscan, Ignatian, etc.  Groups which do not generally fall into a clearly defined family can be labeled as "Independent"
 
 Institutional belonging can be dictated the by religious belonging of individuals at the institution or by property rights and usage (e.g. a Methodist-identified group owned the building).
 
+>*Note: Large ‘regular’ orders were often composed of subgroups (e.g. Discalced Augustinians, Observant Friars Minor, Reformed Friars Minor, etc.). The specific subgroup to which an institution belonged can be recorded with the [religious_body](#religious_body) property.
 
 #### FORMAT
 {: .no_toc }

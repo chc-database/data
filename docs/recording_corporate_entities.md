@@ -366,7 +366,7 @@ Ignatian
 ---
 
 ## Relationships
-People nodes can have three kinds of relationships in the CHCD:
+Corporate Entity nodes can have three kinds of relationships in the CHCD:
 - [**PART_OF**](#part_of): This links Person, Institution, and Event nodes to Corporate Entity nodes.
 - [**CONNECTED_TO**](#connected_to): This links Corporate Entity nodes to other Corporate Entity nodes.
 
@@ -411,7 +411,7 @@ Diocese of Luan; Church; 1920; 1935
 ---
 
 ### CONNECTED_TO
-Typically, this is used to connect corporate entities to otehr coporate entities. Besides making it possible to construct organizational hierchies, this relationship also allows researchers to denote partnerships or collaborations between organizations.
+This is used to connect corporate entities to other corporate entities. Besides making it possible to construct organizational hierarchies, this relationship also allows researchers to denote partnerships or collaborations between organizations.
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
 - ```relationship_type``` : A one or two word descriptor of the institution's relationship to the corporate entity
