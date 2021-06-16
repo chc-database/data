@@ -264,7 +264,7 @@ Religious Body
 ```
 ---
 
-### institution_subcategory
+### corporate_entity_subcategory
 This property describes the specific type of the corporate entity being recorded. There is not currently a set list of values, but it is best practice to follow the descriptors of historical documents. If multiple subcategories can be used, separate them using a semicolon.
 
 #### FORMAT
