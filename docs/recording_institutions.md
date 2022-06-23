@@ -96,7 +96,7 @@ Jiu shi zhu tang (py)
 ```
 ---
 
-### chinese_alternate_name_romanized
+### chinese_alternative_name_romanized
 Alternate Chinese names, including different spellings, under which the institution is recorded. If listing more than one name, use a semicolon to separate the entries. Designate the romanization system by abbreviation when possible.
 
 Here is a list of the most common romanization systems utilized with suggested abbreviation:
@@ -314,17 +314,17 @@ These are general properties which describe the religious belonging of an instit
 
 Below is a list of classifying static properties which should be recorded if your historical document contains them.
 
->*Note: Within the database, classifying properties are generally connected to or describe [Corporate Entities](/data-collection/docs/recording_corporate_entities) (i.e. institutions derive their classification through their connection to corporate entities). They are included here, however, as it may be useful in your own workflow for data collection.*
-
 ---
 
 ### christian_tradition
 This property records the broad Christian tradition to which the institution belonged. Institutional belonging can be dictated the by religious belonging of individuals at the institution or by property rights and usage (e.g. a Protestant-identified group owned the building).
 
-This property has three potential values:
+This property has five potential values:
 - **Protestant**
 - **Catholic**
 - **Orthodox**
+- **Unknown**
+- **Non-Christian**
 
 #### FORMAT
 {: .no_toc }
@@ -362,7 +362,7 @@ Franciscan
 ---
 
 ### religious_body
-This property records the specific organization to which the institution belonged. For Protestants, this could denote a specific denomination, missionary organization, or sending agency (e.g. United Methodist Church, China Inland Mission, Young Men's Christian Association, etc.) For Catholics, this indicates the specific religious order or sending agency (e.g. Discalced Carmelites; Society of Jesus; Propaganda Fide, etc.).
+This property records the specific organization to which the institution belonged. For Protestants, this could denote a specific denomination, missionary organization, or sending agency (e.g. United Methodist Church, China Inland Mission, Young Men's Christian Association, etc.) For Catholics, this indicates the specific religious order or sending agency (e.g. Discalced Carmelites; Society of Jesus; Propaganda Fide, etc.). This property will be transformed into relational data in the database, so the value should be a [Corporate Entity](/data-collection/docs/recording_corporate_entities).
 
 #### FORMAT
 {: .no_toc }
@@ -392,14 +392,14 @@ These three categories are devised so as to offer a range of flexibility in reco
 This relationship is among the most important in the database and connects an institution or event to a geography node. More colloquially, this is how the database records the location of an event or institution. In the database, this relationship enables these nodes (and people who are connected to them) to be connected to geographic coordinates.
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING LOCATED_IN RELATIONSHIPS
 {: .no_toc }
@@ -425,15 +425,15 @@ Church of the Savior; Peking; Xicheng District, Beijing; C2513
 This can be used to connect Institution nodes to other Institution nodes or Event nodes. Importantly, this means "linked to" in the broadest sense of the word.
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the institution's relationship to the other institution.
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `relationship_type` : A one or two word descriptor of the institution's relationship to the other institution.
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING LINKED_TO RELATIONSHIPS
 {: .no_toc }
@@ -460,15 +460,15 @@ I024; Oversees; I002; --; --; This began as a semi-independent medical facility.
 Typically, this is used to connect a person, institution, or corporate entity to its organizational hierarchy (i.e. to corporate entity nodes). For Protestants, this usually records the specific denomination, missionary body, mission administrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South China Conference of the Assemblies of God, etc.) to which an institution or person belonged. For Catholics and Orthodox, this usually indicate the specific diocese, province, or vicarate that an institution or person belonged to (e.g. Luan Diocese, Vice Province of China, etc.)
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the institution's relationship to the corporate entity
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `relationship_type` : A one or two word descriptor of the institution's relationship to the corporate entity
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING PART_OF RELATIONSHIPS
 {: .no_toc }
@@ -496,15 +496,15 @@ Diocese of Luan; Church; 1920; 1935
 This relationship category is used to connect People to Institutions and Events, and thus to record where they were located in China (see note below).
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the person's relationship to the institution or event.
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `relationship_type` : A one or two word descriptor of the person's relationship to the institution or event.
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING PRESENT_AT RELATIONSHIPS
 {: .no_toc }

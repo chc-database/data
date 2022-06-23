@@ -100,7 +100,7 @@ Shang, Jie (py); Siong, Ceh (unknown)
 ```
 ---
 
-### chinese_alternate_name_romanized
+### chinese_alternative_name_romanized
 Alternate Chinese names, including different spellings, under which the individual is recorded. These include the Chinese courtesy name (zi), alternative name (hao) and other courtesy or honorific names (See, [chinese_alternative_name_hanzi](# chinese_alternative_name_hanzi) for more types). If listing more than one name, use a semicolon to separate the entries. Designate the romanization system by abbreviation when possible.
 
 Here is a list of the most common romanization systems utilized with suggested abbreviation:
@@ -175,9 +175,9 @@ A list of the most common name types is below:
 ### gender
 Use the following notation to record the gender of an individual:
 
-- **M** = Male
-- **F** = Female
-- **U** = Unknown
+- **Male**
+- **Female**
+- **Unknown**
 
 ---
 
@@ -269,12 +269,13 @@ Below is a list of descriptive static properties which should be recorded if you
 ---
 
 ### christian_tradition
-List the tradition to which this individual belongs. Use the following notation:
+List the tradition to which this individual belongs. Only five values are accepted.
 
-- **P** = Protestant
-- **C** = Catholic
-- **X** = Orthodox
-- **R** = Other
+- **Protestant**
+- **Catholic**
+- **Orthodox**
+- **Unknown**
+- **Non-Christian**
 
 ---
 
@@ -294,7 +295,7 @@ Methodist; Holiness
 ```
 ---
 
-### degrees
+### degree
 Western state degrees, church degrees, or Chinese examination degrees, followed by the granting institution and the year in which they received the title, if known. If listing more than one degree, use a semicolon to separate the entries.
 
 #### FORMAT
@@ -310,7 +311,7 @@ Bachelor of Arts, Yale University (1905); Masters in Divinity (1910)
 ```
 ---
 
-### titles
+### title
 List all honorary and ecclesial titles obtained by individuals throughout their careers, followed by the year in which they received the title, if known. If listing more than one title, use a semicolon to separate the entries.
 
 #### FORMAT
@@ -326,7 +327,7 @@ Reverend (1937)
 ```
 ---
 
-### occupations
+### occupation
 Occupations held before or during their time in China.  Provide dates, if available. Separate by semicolon if there are more than one jobs.
 
 >*Note: Occupations is used to describe more general work roles or occupations not linked to a specific place or institution. If the location or employing institution is known, see the [PRESENT_AT](#present_at) relationship.*
@@ -408,64 +409,131 @@ The baptismal name [洗名] of an individual, typed in *traditional* (i.e. non-s
 ```
 ---
 
-### originating_province
-List the religious province to which the person belonged prior to their arrival in China.
+### baptism
+The date and place (if known) of the individual's baptism.
 
 #### FORMAT
 {: .no_toc }
 ```
-Originating Province
+ DD/MM/YYY; Place
 ```
 #### EXAMPLE
 {: .no_toc }
 ```
-Province of Our Lady of the Most Holy Rosary (Philippines)
+24/10/1765; Provence, France
 ```
 ---
 
-### china_province
-List the religious province to which the person belonged during their time in China.
+### confirmation
+The date and place (if known) of the individual's confirmation.
 
 #### FORMAT
 {: .no_toc }
 ```
-China Province
+ DD/MM/YYY; Place
 ```
 #### EXAMPLE
 {: .no_toc }
 ```
-Vice-Province of China
+24/10/1765; Provence, France
 ```
 ---
-
-### join_date
-List the date in which the person joined the order or congregation.
+### vestition
+The date and place (if known) of the individual's vestition.
 
 #### FORMAT
 {: .no_toc }
 ```
-YYYY; MM; DD
+ DD/MM/YYY; Place
 ```
 #### EXAMPLE
 {: .no_toc }
 ```
-1783; 02; --
+24/10/1765; Provence, France
 ```
 ---
-
-### vows
-List the vows which the person took and dates, if available. Vows should be separated by semicolons.
+### ordination_deacon
+The date and place (if known) of the individual's ordination to the deaconate.
 
 #### FORMAT
 {: .no_toc }
 ```
-Vow (YYYY); Vow (YYYY)
+ DD/MM/YYY; Place
 ```
 #### EXAMPLE
 {: .no_toc }
 ```
-Standard Vows (1834); Fourth Vow (1844)
-Simple Vows (1745)
+24/10/1765; Provence, France
+```
+---
+### ordination_priest
+The date and place (if known) of the individual's ordination to the priesthood.
+
+#### FORMAT
+{: .no_toc }
+```
+ DD/MM/YYY; Place
+```
+#### EXAMPLE
+{: .no_toc }
+```
+24/10/1765; Provence, France
+```
+---
+### ordination_bishop
+The date and place (if known) of the individual's ordination as a bishop.
+
+#### FORMAT
+{: .no_toc }
+```
+ DD/MM/YYY; Place
+```
+#### EXAMPLE
+{: .no_toc }
+```
+24/10/1765; Provence, France
+```
+---
+### ordination_archbishop
+The date and place (if known) of the individual's ordination as an archbishop.
+
+#### FORMAT
+{: .no_toc }
+```
+ DD/MM/YYY; Place
+```
+#### EXAMPLE
+{: .no_toc }
+```
+24/10/1765; Provence, France
+```
+---
+### beatification
+The date on which an individual was beatified.
+
+#### FORMAT
+{: .no_toc }
+```
+ DD/MM/YYY
+```
+#### EXAMPLE
+{: .no_toc }
+```
+24/10/1765
+```
+---
+### canonization
+The date on which an individual was canonized.
+
+#### FORMAT
+{: .no_toc }
+```
+ DD/MM/YYY
+```
+#### EXAMPLE
+{: .no_toc }
+```
+24/10/1765
 ```
 ---
 
@@ -521,15 +589,15 @@ These three categories are devised so as to offer a range of flexibility in reco
 Typically, this is used to capture the specific religious group that a person belonged to. For Protestants, this usually records the specific denomination, missionary body, mission administrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South China Conference of the Assemblies of God, etc.) to which a person belonged. For Catholics and Orthodox, this usually indicate the specific order or province (e.g. Discalced Carmelites, Vice Province of China, etc.) to which a person belonged.
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the person's relationship to the corporate entity
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `relationship_type` : A one or two word descriptor of the person's relationship to the corporate entity
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING PART_OF RELATIONSHIPS
 {: .no_toc }
@@ -556,15 +624,15 @@ Independent, Evangelist (1932)
 This relationship category is used to connect People to Institutions and Events, and thus to record where they were located in China (see note below).
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the person's relationship to the institution or event.
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `relationship_type` : A one or two word descriptor of the person's relationship to the institution or event.
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING PRESENT_AT RELATIONSHIPS
 {: .no_toc }
@@ -590,15 +658,15 @@ General Area (Shanxi); 1933; Evangelist; Shansi; Shanxi; C979;
 This is used to connect People nodes to People nodes. Importantly, it means "related to" in the broadest sense of the word.
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the person's relationship to the other person
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `relationship_type` : A one or two word descriptor of the person's relationship to the other person
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING RELATED_TO RELATIONSHIPS
 {: .no_toc }

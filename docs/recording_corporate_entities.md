@@ -130,7 +130,7 @@ Yesu hui (py)
 ```
 ---
 
-### chinese_alternate_name_romanized
+### chinese_alternative_name_romanized
 Alternate Chinese names, including different spellings, under which the corporate entity is recorded. If listing more than one name, use a semicolon to separate the entries. Designate the romanization system by abbreviation when possible.
 
 Here is a list of the most common romanization systems utilized with suggested abbreviation:
@@ -329,10 +329,13 @@ Below is a list of classifying static properties which should be recorded if you
 ### christian_tradition
 This property records the broad Christian tradition to which the institution belonged. Institutional belonging can be dictated the by religious belonging of individuals at the institution or by property rights and usage (e.g. a Protestant-identified group owned the building).
 
-This property has three potential values:
+This property has five potential values:
 - **Protestant**
 - **Catholic**
 - **Orthodox**
+- **Unknown**
+- **Non-Christian**
+
 
 #### FORMAT
 {: .no_toc }
@@ -378,15 +381,15 @@ These three categories are devised so as to offer a range of flexibility in reco
 Typically, this is used to connect a person, institution, or corporate entity to its organizational hierarchy (i.e. to corporate entity nodes). For Protestants, this usually records the specific denomination, missionary body, mission administrative division, or sending agency (e.g. the Church Missionary Society, the True Jesus Church, the South China Conference of the Assemblies of God, etc.) to which an institution or person belonged. For Catholics and Orthodox, this usually indicate the specific diocese, province, or vicarate that an institution or person belonged to (e.g. Luan Diocese, Vice Province of China, etc.)
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the institution's relationship to the corporate entity
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `relationship_type` : A one or two word descriptor of the institution's relationship to the corporate entity
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING PART_OF RELATIONSHIPS
 {: .no_toc }
@@ -414,15 +417,15 @@ Diocese of Luan; Church; 1920; 1935
 This is used to connect corporate entities to other corporate entities. Besides making it possible to construct organizational hierarchies, this relationship also allows researchers to denote partnerships or collaborations between organizations.
 
 This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
-- ```relationship_type``` : A one or two word descriptor of the institution's relationship to the corporate entity
-- ```start_year``` : Records the starting year of the relationship, also used if no end date to the relationship is available.
-- ```start_month``` : Records the starting month of the relationship, also used if no end date to the relationship is available.
-- ```start_day``` : Records the starting day of the relationship, also used if no end date to the relationship is available.
-- ```end_year``` : Records the ending year of the relationship.
-- ```end_month``` : Records the ending year of the relationship.
-- ```end_day``` : Records the ending year of the relationship.
-- ```note``` : Records any additional information about the relationship.
-- ```source``` : Records the source in which the relationship is attested.
+- `relationship_type` : A one or two word descriptor of the institution's relationship to the corporate entity
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source` : Records the source in which the relationship is attested.
 
 #### NOTE ON COLLECTING CONNECTED_TO RELATIONSHIPS
 {: .no_toc }
