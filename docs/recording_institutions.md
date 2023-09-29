@@ -378,13 +378,15 @@ Society of Jesus
 ---
 
 ## Relationships
-People nodes can have three kinds of relationships in the CHCD:
+Institution nodes can have three kinds of relationships in the CHCD:
 - [**LOCATED_IN**](#located_in): This links Institution nodes to Geography nodes.
 - [**LINKED_TO**](#linked_to): This links Event nodes and Institution nodes to each other.
 - [**PART_OF**](#part_of): This links Person, Institution, and Event nodes to Corporate Entity nodes.
 - [**PRESENT_AT**](#present_at): This links Person nodes to Institution or Event nodes.
+- [**INVOLVED_WITH**](#involved_with): This links Institution nodes to Publication nodes.
 
-These three categories are devised so as to offer a range of flexibility in recording different types of relationships, while also providing a framework to organize them. When designing your spreadsheet and recording data, it is good to keep these basic relationships in mind. Below are descriptions of each relationships and an example of how it  might be recorded in a spreadsheet.
+
+These five categories are devised so as to offer a range of flexibility in recording different types of relationships, while also providing a framework to organize them. When designing your spreadsheet and recording data, it is good to keep these basic relationships in mind. Below are descriptions of each relationships and an example of how it  might be recorded in a spreadsheet.
 
 ---
 
@@ -523,6 +525,45 @@ Institution; Start YYYY; Relationship Type; Recorded Place Name; Modern Place Na
 ```
 Jesuit College of Macao; 1921; Guest; Macau; Macao; C979; Worked as pharmacist while present.
 General Area (Shanxi); 1933; Evangelist; Shansi; Shanxi; C979;
+```
+---
+
+### INVOLVED_WITH
+This relationship category is used to connect Publications to People, Institutions, Corporate Entities, Events, General Areas, or other Publications. 
+
+This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
+- `relationship_type` : A one or two word descriptor of the node’s relationship to the publication.
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source `: Records the source in which the relationship is attested.
+
+#### NOTE ON COLLECTING INVOLVED_WITH RELATIONSHIPS
+{: .no_toc }
+
+This relationship type is designed to allow for flexibility when linking other nodes to publications. Therefore, the relationship_type property of the relationship is important for providing more detail about the nature of the connection. Below are some examples of possible relationship types between nodes (this list is not exhaustive):
+- `Person` -> `Publication`: editor, author, contributor, subscriber, reader
+- `Institution` -> `Publication`: published, funded, commissioned, supported
+- `CorporateEntity` -> `Publication`: published, funded, commissioned, supported 
+- `Event` -> `Publication`: recorded in, promoted, distributed at
+- `Publication` -> `General Area`: published in  
+- `Publication` -> `Publication`: second edition, sequel, part of, issue of, responding to
+
+#### EXAMPLE HEADER FORMAT
+{: .no_toc }
+```
+Publication; Start YYYY; End YYYY; Relationship Type; Geography Code; Note
+```
+
+#### EXAMPLE ENTRIES
+{: .no_toc }
+```
+Monumenta Serica; 1921; 1930; Co-editor; Was the founding editor.
+The Chinese Recorder; 1885; Issue of; sixteenth volume;
 ```
 ---
 
