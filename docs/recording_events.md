@@ -485,6 +485,45 @@ I024; Sequel to; I120
 ```
 ---
 
+### INVOLVED_WITH
+This relationship category is used to connect Publications to People, Institutions, Corporate Entities, Events, General Areas, or other Publications. 
+
+This relationship also has its own properties which can be used to record data about the nature of the relationship. They are as follows:
+- `relationship_type` : A one or two word descriptor of the node’s relationship to the publication.
+- `start_year` : Records the starting year of the relationship, also used if no end date to the relationship is available.
+- `start_month` : Records the starting month of the relationship, also used if no end date to the relationship is available.
+- `start_day` : Records the starting day of the relationship, also used if no end date to the relationship is available.
+- `end_year` : Records the ending year of the relationship.
+- `end_month` : Records the ending year of the relationship.
+- `end_day` : Records the ending year of the relationship.
+- `note` : Records any additional information about the relationship.
+- `source `: Records the source in which the relationship is attested.
+
+#### NOTE ON COLLECTING INVOLVED_WITH RELATIONSHIPS
+{: .no_toc }
+
+This relationship type is designed to allow for flexibility when linking other nodes to publications. Therefore, the relationship_type property of the relationship is important for providing more detail about the nature of the connection. Below are some examples of possible relationship types between nodes (this list is not exhaustive):
+- `Person` -> `Publication`: editor, author, contributor, subscriber, reader
+- `Institution` -> `Publication`: published, funded, commissioned, supported
+- `CorporateEntity` -> `Publication`: published, funded, commissioned, supported 
+- `Event` -> `Publication`: recorded in, promoted, distributed at
+- `Publication` -> `General Area`: published in  
+- `Publication` -> `Publication`: second edition, sequel, part of, issue of, responding to
+
+#### EXAMPLE HEADER FORMAT
+{: .no_toc }
+```
+Publication; Start YYYY; End YYYY; Relationship Type; Geography Code; Note
+```
+
+#### EXAMPLE ENTRIES
+{: .no_toc }
+```
+Monumenta Serica; 1921; 1930; Co-editor; Was the founding editor.
+The Chinese Recorder; 1885; Issue of; sixteenth volume;
+```
+---
+
 ## Example Spreadsheets
 As stated throughout, make sure to design your spreadsheet to work most efficiently with your source materials. That said, it can be helpful to see examples of spreadsheets in action.
 
