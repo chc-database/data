@@ -88,7 +88,7 @@ Christian people moved between institutions, institutions changed locations, and
 ### Controls Complex and Fuzzy Geographies
 {: .no_toc }
 
-Geography is regulated using two principles. First, the only nodes that have geographic coordinates attached to them are geography nodes (i.e. Village, Township, County, Prefecture, Province). Second, the only nodes which can relate to geography nodes are Institution and Event nodes. These principles, in turn, accomplish two main goals: 1) historical locations with varying levels of geographic specificity can be recorded, and 2) redundancy and errors are reduced, and 3) changes in an institution's location over time can be easily tracked. For more information, see the documentation on [Geography](/data-collection/docs/geography/).
+Geography is regulated using two principles. First, the only nodes that have geographic coordinates attached to them are geography nodes (i.e. Village, Township, County, Prefecture, Province). Second, the only nodes which can relate to geography nodes are Institution, Event, and General Area nodes. These principles, in turn, accomplish two main goals: 1) historical locations with varying levels of geographic specificity can be recorded, and 2) redundancy and errors are reduced, and 3) changes in an institution's location over time can be easily tracked. For more information, see the documentation on [Geography](/data-collection/docs/geography/).
 
 ### Easy and Understandable Query
 {: .no_toc }
@@ -98,4 +98,4 @@ When users download the database and use its native Neo4j environment, they can 
 ### Easy to Grow
 {: .no_toc }
 
-The four primary node types are not the only kind of historical entities or information that could be placed in a database. While initial data collection will focus on these entities, the graph database structure can grow to include different kinds of information. This future growth will further enrich any data already recorded. The edition of two new node types in verion 2 of the CHCD shows the flexibility that this design affords. 
+The six primary node types are not the only kind of historical entities or information that could be placed in a database. While initial data collection will focus on these entities, the graph database structure can grow to include different kinds of information. This future growth will further enrich any data already recorded. The edition of two new node types in verion 2 of the CHCD shows the flexibility that this design affords. 
