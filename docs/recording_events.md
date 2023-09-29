@@ -340,13 +340,14 @@ Society of Jesus
 ---
 
 ## Relationships
-Event nodes can have three kinds of relationships in the CHCD:
+Event nodes can have five kinds of relationships in the CHCD:
 - [**PART_OF**](#part_of): This links Person, Institution, and Event nodes to Corporate Entity nodes.
 - [**PRESENT_AT**](#present_at): This links Person nodes to Institution or Event nodes.
 - [**LOCATED_IN**](#located_in): This links Event nodes to Geography nodes.
 - [**LINKED_TO**](#linked_to): This links Event nodes and Institution nodes to each other.
+- [**INVOLVED_WITH**](#linked_to): This links Event nodes to Publication nodes.
 
-These three categories are devised so as to offer a range of flexibility in recording different types of relationships, while also providing a framework to organize them. When designing your spreadsheet and recording data, it is good to keep these basic relationships in mind. Below are descriptions of each relationships and an example of how it  might be recorded in a spreadsheet.
+These five categories are devised so as to offer a range of flexibility in recording different types of relationships, while also providing a framework to organize them. When designing your spreadsheet and recording data, it is good to keep these basic relationships in mind. Below are descriptions of each relationships and an example of how it  might be recorded in a spreadsheet.
 
 ---
 
