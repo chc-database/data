@@ -60,11 +60,11 @@ As demonstrated above, giving individuals unique relationships to geography can 
 
 ---
 
-## Placeholder Institutions
+## General Areas
 
-The controlled geography system of the database requires the use of placeholder institutions, as individuals may be present in a location without being directly linked to an institution. If all that is known about an individual is that they are in an area, the schema requires a default geographically linked institution to place them.
+The controlled geography system of the database requires the use of general areas, as individuals may be present in a location without being directly linked to an institution. If all that is known about an individual is that they are in an area, the schema requires a default geographically linked general area to place them.
 
-Placeholder ```:Institution``` nodes are named in the following way:
+```:GeneralArea``` nodes are named in the following way:
 
 #### FORMAT
 {: .no toc}
@@ -80,7 +80,7 @@ General Area (Location Name)
 General Area (Beijing)
 ```
 
->*Note: Without care, researchers can interpret institutional data wrongly if they do not take account of these placeholder institutions which exist to allow individuals to obtain geography. Most individuals in the database, however, are linked to events and institutions*
+>*Note: Without care, researchers can interpret general area data incorrectly if they forgot that individuals are only connected to a general area if they cannot be affiliated with an event or an institution instead. Therefore, general area nodes cannot be used to determine all the individuals present at a given location. Most individuals in the database are linked to events and institutions as opposed to general areas.*
 
 ---
 
