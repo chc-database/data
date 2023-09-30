@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Recording General Areas
-nav_order: 7
+nav_order: 9
 ---
 
 # Recording General Areas
